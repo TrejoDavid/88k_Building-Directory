@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* BASE DIV STYLE */
+#listdata {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	z-index: 2;
+	width: 100%;
+	height: 1043px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#fff;
+	background-color: #d7d4cd;
+	padding:0 0px;
+	text-transform: uppercase;
+} 
+#listdata table{
+	border-collapse: separate;
+	/*border-spacing: 50px 0px;*/
+}
+/* TABLE STYLING */
+.innerTbl thead th{
+	height: 42px;
+}
+.innerTbl thead th table{
+	max-width: 900px;
+	margin:0 auto;
+	height: 42px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.innerCol{
+	width: 50%;
+	max-width: 900px;	
+	margin:0 auto;
+	height: 840px;
+	color: black;
+	/*border-right:solid white 10px;*/
+	/*padding:0px 80px;*/
+	/*padding-left:80px;*/
+}}
+.innerCol:last-child{
+	border-right:none;
+	/*padding-bottom:1em;*/
+}
+.compColumnWidth:nth-child(1){
+	/*margin-top:0;*/
+}
+.compColumnWidth {
+	width: 100%;
+	max-width: 900px;
+	margin:0 auto;
+	/*margin-top:1.25em;*/
+	/*margin-bottom: .75em;*/
+	height: 100%;
+}
+.indColumnWidth {
+	width: 100%;
+	max-width: 900px;
+	margin:0 auto;
+	height: 100%;
+}
+.indColumnWidth:last-child{
+}
+.innerTbl{
+	width:100%;
+	height:100%;
+}
+.compColumnWidth td{
+	/*padding-top:1em;*/
+}
+td.compName {
+	width: 90%;
+	vertical-align: top;
+	height:100%;
+}
+td.compSuite {
+	width: 13%;
+	padding-right:5px;
+	vertical-align: top;
+}
+td.compFloor {
+	text-align: center;
+	vertical-align: top;
+	width: 35%;
+}
+td.indName {
+	width: 40%;
+	vertical-align: top;
+	height:100%;
+}
+td.indSuite {
+	width: 10%;
+	vertical-align: top;
+}
+td.indSpecialty {
+	width: 65%;
+	padding:0px 0px 0px 0px;
+}
+td.indCompany {
+	width: 50%;
+	padding:0px 0px 0px 0px;
+}
+td.indFloor {
+	width: 5%;
+	text-align: center;
+	vertical-align: top;
+}
+.floor-labels{
+	/*padding-bottom:20px;*/
+}
+.innerTbl thead th table {
+	border:solid white 1px;
+	background-color: #f6b21f;
+	color:#4b4d50;
+	/*padding:5px 0px 0px 0px;*/
+
+	}
+.innerTbl thead th table tr td{
+	border-left:solid white 3px;
+}
+.innerTbl thead th table tr td:first-child{
+	border-left:none;
+}
+/* TEXT STYLING */
+.companyHeader {
+	font-size: 1.5em;
+	margin: 5px 0px 0px 10px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Trajan Pro';
+	color: inherit;
+	/*letter-spacing: 1.4px;*/
+	font-weight: 600;
+}
+.individualHeader {
+	font-size: 1.5em;
+	margin: 5px 0px 0px 10px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Trajan Pro';
+	color: inherit;
+	/*letter-spacing: 1.4px;*/
+	font-weight: 600;
+}
+.floorLabel .companyName{
+	text-align: left;
+	/*margin-left:20px;*/
+}
+.suiteHeader {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 5px 0px 0 5px;
+	font-family: 'Trajan Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	/*letter-spacing: 1.4px;*/
+	color: inherit;
+	font-weight: 600;
+}
+.companyName {
+	font-size: 1.75em;
+	margin: 0px 0px 0px 10px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	color: inherit;
+	letter-spacing: 1.4px;
+	font-weight: 500;
+}
+.companySuite {
+	font-size: 1.75em;
+	text-align: center;
+	margin: 0px 0px 0 10px;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	letter-spacing: 1.4px;
+	color: inherit;
+	
+	font-weight: 500;
+}
+.floorLabel .companySuite{
+	margin-right:20px;
+}
+.companyAbout {
+	font-size: .75em;
+	margin: 0px 0 0px 40px;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	font-style: normal;
+	color: inherit;
+	font-weight: 300;
+}
+.companyFloor {
+	font-size: 1.4em;
+	text-align: right;
+	margin: 0px 15px 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: 300;
+}
+.individualName {
+	font-size: 1em;
+	margin: 0px 0px 0px 10px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	color: inherit;
+	letter-spacing: 1.4px;
+	font-weight: 500;
+}
+.individualCompany{
+	font-size: 1em;
+	margin: 0px 0px 0px 10px;
+	text-transform:capitalize;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	color: inherit;
+	letter-spacing: 1.4px;
+	font-weight: 500;
+}
+.individualSuite {
+	font-size:1em;
+	text-align: right;
+	margin: 0px 15px 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: 300;
+}
+.floorLabel .individualSuite{
+	margin-right:20px;
+}
+.individualAbout {
+	font-size: .75em;
+	margin: 0px 0 0px 40px;
+	text-align: left;
+	font-family: 'Myriad Pro';
+	font-style: normal;
+	color: inherit;
+	font-weight: 300;
+}
+.individualFloor {
+	font-size: 1.4em;
+	text-align: right;
+	margin: 0px 15px 0 0;
+	font-family: 'Myriad Pro';
+	text-indent: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	color: inherit;
+	font-weight: 300;
+}

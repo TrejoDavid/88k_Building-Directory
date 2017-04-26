@@ -1,0 +1,60 @@
+@charset "utf-8";
+#dateUTC{
+	display: none;
+}
+#datage{
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 220px;
+  z-index: 2; 
+  font-size: 1em;
+  color:#000;
+  font-family: 'Myriad Pro';
+  line-height: 22.67px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
+  height: 80px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+#datage>ul>li{
+	display:inline-block;
+	line-height: 1;
+	/*min-width: 48.5%;*/
+	/*margin:0 auto;*/
+	margin-left:5px;
+	white-space: nowrap;
+	/*font-size: 24px;*/
+}
+#datage h2>span{
+	font-weight: 400;
+	font-size: 1em;
+	float: left;
+}
+
+
+#moment-day {
+	/*font-size: 24px;*/
+}
+
+
+#moment-month,
+#moment-date,
+#pendule {
+/*	font-size: 20px;*/
+  text-align: center;
+	
+}
+
+
+#pendule{
+	white-space: nowrap;
+	font-variant: small-caps;
+/*	font-size: 40px;*/
+}
+.ampm{
+	display: none;
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+#slideshow {
+/*    height: 1080px;
+    width:640px;*/
+    /*height: 787px;*/
+    height: 1080px;
+    width: 640px;
+    z-index: 1;
+    /*margin-top: 309px;*/
+        margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cycle-slideshow img{
+	width: 100%;
+	height: 100%;
+	/*height: 100%;*/
+	max-width: 100%;
+	max-height: 100%;
+}
+/*#slideshow-container{
+	position: absolute;
+	top: 240px;
+	left: 685px;
+	width: 1050px;
+	height: 520px;
+}*/

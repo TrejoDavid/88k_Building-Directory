@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+#weather {
+  box-sizing: border-box;
+  position: absolute;
+  left: 76.6%;
+  top: 6px;
+  width: 220px;
+  height: 80px;
+  z-index: 2;
+  font-size: 1em;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  white-space: nowrap;
+  /*text-transform: uppercase;*/
+  background:#4B5056;;
+}
+
+/* BASE STYLING */
+#weather-data {
+	height: auto;
+	width: auto;
+  margin-top: 3px;
+}
+i.weather {
+	font-size: 3em;
+  padding-top:15px;
+  margin-top:15px;
+}
+#weather-data ul {
+  margin: 0;
+  padding: 0;
+  /*line-height: 1;*/
+  /*list-style-type: none;*/
+	/*vertical-align: top;*/
+}
+
+/* TODAY'S WEATHER STYLING */
+#weather-data h2 {
+  margin: 0em 0 0em 0px;
+  /*padding:.25em .25em .25em .25em;*/
+  /*color: #fff;*/
+  /*font-size: 1em;*/
+  font-weight: 500;
+  /*text-align: right;*/
+  white-space: nowrap;
+
+  /*text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);*/
+  /*background-color: rgba(14, 82, 156, 0.75);*/
+  white-space: nowrap;
+  }
+#weather-data h2>ul{
+  display:block;
+  white-space: nowrap;
+  width: 45%;
+  float: left;
+  clear: right;
+
+  margin:0;
+  padding-left: 10px;
+  padding-right: 10px;
+    /*margin-left:.25em;*/
+}
+#weather-data>h2>ul>li{
+  display:inline-block;
+  white-space: nowrap;
+}
+#weather-data>h2>ul:nth-child(2){
+/*  min-width: 50%;
+  max-width: 150px;*/
+}
+#weather-data h2>ul>li.location {
+/*  font-size: 1em;
+  text-align: left;
+  margin-top: 0.85em;*/
+}
+#weather-data h2>ul>li.temp {
+	font-size: 42px;
+  text-align: left;
+}
+#weather-data h2>ul>li.symbol {
+  padding:0 10px;
+	margin-top:-11px;
+  font-size: 1.3em;
+  /*text-align: center;*/
+  /*line-height:.25;*/
+  /*margin-top:.1em;*/
+}
+.symbol img{
+  height:53px;
+  vertical-align:middle;
+}
+#weather-data h2>ul>li.currently {
+	font-size: 42px;
+/*  font-size: .75em;
+  text-transform: uppercase;
+  padding-top: 0.4em;
+  text-align:center;*/
+}
+
+/* FORECAST STYLING */
+#weather-data>ul>li {
+  /*padding: 10px 20px;*/
+  color:#fff;
+  display: inline-block;
+  /*border:solid red 1px;*/
+  margin:0 5px;
+}
+#weather-data>ul{
+  /*background-color: rgba(0,0,0,0.80);*/
+}
+#weather-data>ul>li>.forecast-day{
+  text-transform: uppercase;
+}
+#weather-data>ul>li>.forecast-symbol>i.weather{
+  font-size: 2.5em;
+}

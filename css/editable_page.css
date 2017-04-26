@@ -1,0 +1,62 @@
+.editablePage b, .editablePage strong{
+	font-weight: normal !important;
+}
+.editablePage i, .editablepage em{
+	font-style: italic !important;
+}
+.wysiwygdata {
+	position: absolute;
+	top: 151px;
+	left: 231px;
+	z-index: 5;
+	width: 1018px;
+	height: 696px;
+
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Myriad Pro';
+}
+.editablePage{
+	width: 100%;
+	height:100%;
+	font-size: 1em;
+	font-family: inherit;
+	overflow: hidden;
+	color: inherit;
+} 
+.editablePage h1,.editablePage h2,.editablePage h3,.editablePage h4,.editablePage h5,.editablePage h6,.editablePage p {
+   line-height: 1.15;
+   margin: .5em 0;
+   font-weight: inherit;
+}
+.editablePage p{
+	margin:0;
+}
+.editablePage h1 { font-size: 1.4em; }
+.editablePage h2 { font-size: 1.2em; }
+.editablePage h3 { font-size: 1em; }
+.editablePage table{margin:0 auto;}
+.editablePage table *{
+	/*border:solid red 1px;*/
+	font-size: inherit;
+	font-weight: inherit;
+}
+.editablePage table tbody tr td h1{
+	font-size: 2em;
+}
+.editablePage table tbody tr td h2{
+	font-size: 1.5em;
+}
+.editablePage table tbody tr td h3{
+	font-size: 1em;
+}
+.editablePage table{
+	font-weight: inherit;
+	font-size:inherit;
+}
+
+
+span.info {
+	color: #000;
+}

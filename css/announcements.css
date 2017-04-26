@@ -1,0 +1,38 @@
+#announcements{
+	width: inherit;
+	font-family: 'Myriad Pro';
+	font-size: 1.5em;
+	z-index: 2;
+	color: #fff;
+	vertical-align: top;
+	text-align: left;
+	padding:0 20px;
+	/*font-weight: 300;*/
+	margin:0;
+	overflow: hidden;
+	/*padding: .15em .5em;*/
+	z-index:3000000;
+}
+#announcements_header{
+	/*background-color: rgba(135, 123, 22, .8); */
+	/*padding: 0 .5em;*/
+	font-family: 'Myriad Pro';
+	/*text-decoration: underline;*/
+	/*display: block;*/
+	color:#fff;
+	line-height: 40px;
+	text-transform: uppercase;
+	/*display: none;*/
+}
+#announcement{
+	/*display: block;*/
+	margin: 0;
+	font-family: 'Myriad Pro';
+	font-weight: inherit;
+	color:#fff;
+	line-height: 40px;
+	/*background-color: rgba(0,0,0,0.80);*/
+}
+#announcement_text{
+	font-size: .9em;
+}

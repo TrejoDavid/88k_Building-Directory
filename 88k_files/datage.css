@@ -1,0 +1,83 @@
+@charset "utf-8";
+#dateUTC{
+	display: none;
+}
+#datage{
+	padding:.25em .25em .25em .5em;
+	/*background-color: rgba(0,0,0,0.80);*/
+	white-space: nowrap;
+	/*display: none;*/
+}
+#datage>ul>li{
+	display:block;
+	white-space: nowrap;
+	font-size: 1.3em;
+	line-height: 1;
+	text-align:center;
+	/*min-width: 48.5%;*/
+	margin:0 auto;
+	/*color: #FFF;*/
+	text-transform: uppercase;
+}
+#datage>ul>li h2{
+    font-weight: 600;
+	padding-bottom:20px;
+    
+}
+#datage>ul{
+	margin:0 auto;
+}
+#datage>ul>li#clock{
+	/*text-align: right;*/
+	/*float:right;
+	margin-left: .75em;*/
+}
+#datage>ul>li#clock>#pendule{
+	/*text-align: right;*/
+}
+#moment-day{
+    position: absolute;
+	left: 402px;
+    top: 45.4px;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+	/*top: -200px;*/
+	/*font-family: 'Times New Roman';*/
+	/*font-weight:normal;*/
+}
+
+#moment-month {
+    position: absolute;
+    left: 408px;
+    top: 79px;
+    font-size: 48px;
+        width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#moment-date {
+    position: absolute;
+        left: 490px;
+    top: 79px;
+    font-size: 48px;
+        width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ampm{
+	/*display: none;*/
+}
+
+#transit-time {
+    position: absolute;
+    top: 133px;
+	left: 437px;
+    font-size: 38px;
+}
+
+
